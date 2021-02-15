@@ -1,0 +1,150 @@
+SIMAN Run Controller.
+
+9.1582966 Minutes>
+                                      ARENA Simulation Results
+                             lucaspaccini@hotmail.it - License: STUDENT
+
+                                  Summary for Replication 1 of 100
+
+Project: Unnamed Project                                             Run execution date : 2/ 3/2021
+Analyst: lucaspaccini@hotmail.it                                     Model revision date: 2/ 3/2021
+
+Replication ended at time      : 9.1582966 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+CASSA ABBIGLIAMENTO.VATimePerEntity         .06331     (Insuf)    .06331     .06331          1    
+REPARTO PESCHERIA.VATimePerEntity           2.6201     (Insuf)    1.5946     4.1186          3    
+PORTA INGRESSO.TotalTimePerEntity           .35763     (Insuf)    .11328     .81348         10    
+REPARTO SCAFFALI.WaitTimePerEntity              --         --         --         --          0
+ABBIGLIAMENTO.VATimePerEntity               3.1311     (Insuf)    3.1311     3.1311          1    
+CASSA 2.TotalTimePerEntity                  1.2993     (Insuf)    1.2993     1.2993          1    
+PORTA INGRESSO.WaitTimePerEntity            .21780     (Insuf)    .00000     .65613         10    
+CASSA 1.VATimePerEntity                     1.4519     (Insuf)    .59277     2.3111          2    
+CASSA 2.WaitTimePerEntity                   .00000     (Insuf)    .00000     .00000          1    
+CASSA ABBIGLIAMENTO.WaitTimePerEntity       .00000     (Insuf)    .00000     .00000          1    
+PORTA INGRESSO.VATimePerEntity              .13982     (Insuf)    .09841     .16457         10    
+REPARTO PESCHERIA.TotalTimePerEntity        5.2634     (Insuf)    4.1186     6.1085          3    
+REPARTO PESCHERIA.WaitTimePerEntity         2.6433     (Insuf)    .00000     3.9686          3    
+ABBIGLIAMENTO.TotalTimePerEntity            3.1311     (Insuf)    3.1311     3.1311          1    
+REPARTO GASTRONOMIA.VATimePerEntity         3.0537     (Insuf)    .35330     6.8669          4    
+CASSA 2.VATimePerEntity                     1.2993     (Insuf)    1.2993     1.2993          1    
+REPARTO GASTRONOMIA.TotalTimePerEntity      3.1692     (Insuf)    .81522     6.8669          4    
+REPARTO GASTRONOMIA.WaitTimePerEntity       .11548     (Insuf)    .00000     .46192          4    
+ABBIGLIAMENTO.WaitTimePerEntity             .00000     (Insuf)    .00000     .00000          1    
+REPARTO SCAFFALI.TotalTimePerEntity             --         --         --         --          0
+CASSA 1.TotalTimePerEntity                  1.5338     (Insuf)    .75664     2.3111          2    
+REPARTO SCAFFALI.VATimePerEntity                --         --         --         --          0
+CASSA 1.WaitTimePerEntity                   .08193     (Insuf)    .00000     .16386          2    
+CASSA ABBIGLIAMENTO.TotalTimePerEntity      .06331     (Insuf)    .06331     .06331          1    
+Entity 1.VATime                             5.2669     (Insuf)    2.8974     8.3197          4    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          4    
+Entity 1.WaitTime                           1.4704     (Insuf)    .11328     4.7812          4    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          4    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000          4    
+Entity 1.TotalTime                          6.7374     (Insuf)    3.7522     8.4330          4    
+REPARTO PESCHERIA.Queue.WaitingTime         2.6433     (Insuf)    .00000     3.9686          3    
+CASSA 2.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000          1    
+REPARTO GASTRONOMIA.Queue.WaitingTime       .11548     (Insuf)    .00000     .46192          4    
+Hold 1.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000         11    
+REPARTO SCAFFALI.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          6    
+PORTA INGRESSO.Queue.WaitingTime            .19800     (Insuf)    .00000     .65613         11    
+ABBIGLIAMENTO.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          1    
+CASSA 1.Queue.WaitingTime                   .08193     (Insuf)    .00000     .16386          2    
+CASSA ABBIGLIAMENTO.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.7761     (Insuf)    .00000     9.0000     7.0000    
+scaffali.NumberBusy                         2.4343     (Insuf)    .00000     6.0000     6.0000    
+cassiere abbigliamento.NumberBusy           .00691     (Insuf)    .00000     1.0000     .00000    
+cassiere abbigliamento.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+cassiere abbigliamento.Utilization          .00691     (Insuf)    .00000     1.0000     .00000    
+cassiere.NumberBusy                         .31708     (Insuf)    .00000     1.0000     .00000    
+cassiere.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+cassiere.Utilization                        .31708     (Insuf)    .00000     1.0000     .00000    
+pescivendolo.NumberBusy                     .85830     (Insuf)    .00000     1.0000     .00000    
+pescivendolo.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+pescivendolo.Utilization                    .85830     (Insuf)    .00000     1.0000     .00000    
+cassiere 2.NumberBusy                       .14187     (Insuf)    .00000     1.0000     .00000    
+cassiere 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+cassiere 2.Utilization                      .14187     (Insuf)    .00000     1.0000     .00000    
+IGENIZZAZIONE.NumberBusy                    .16996     (Insuf)    .00000     1.0000     1.0000    
+IGENIZZAZIONE.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+IGENIZZAZIONE.Utilization                   .16996     (Insuf)    .00000     1.0000     1.0000    
+macellaio e gastronomo.NumberBusy           1.3337     (Insuf)    .00000     2.0000     .00000    
+macellaio e gastronomo.NumberScheduled      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+macellaio e gastronomo.Utilization          .66688     (Insuf)    .00000     1.0000     .00000    
+Commesso.NumberBusy                         .34190     (Insuf)    .00000     1.0000     .00000    
+REPARTO PESCHERIA.Queue.NumberInQueue       .86587     (Insuf)    .00000     2.0000     .00000    
+CASSA 2.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+REPARTO GASTRONOMIA.Queue.NumberInQueue     .05044     (Insuf)    .00000     1.0000     .00000    
+Hold 1.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+REPARTO SCAFFALI.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+PORTA INGRESSO.Queue.NumberInQueue          .23782     (Insuf)    .00000     5.0000     .00000    
+ABBIGLIAMENTO.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+CASSA 1.Queue.NumberInQueue                 .01789     (Insuf)    .00000     1.0000     .00000    
+CASSA ABBIGLIAMENTO.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+REPARTO PESCHERIA Number Out                3.0000    
+REPARTO PESCHERIA Number In                 3.0000    
+CASSA 1 Accum VA Time                       2.9039    
+REPARTO SCAFFALI Accum Wait Time            .00000    
+CASSA ABBIGLIAMENTO Number Out              1.0000    
+CASSA ABBIGLIAMENTO Number In               1.0000    
+ABBIGLIAMENTO Accum Wait Time               .00000    
+CASSA 2 Accum Wait Time                     .00000    
+ABBIGLIAMENTO Accum VA Time                 3.1311    
+CASSA 2 Number Out                          1.0000    
+CASSA 1 Number In                           2.0000    
+REPARTO PESCHERIA Accum VA Time             7.8605    
+CASSA 1 Number Out                          2.0000    
+PORTA INGRESSO Accum VA Time                1.3982    
+REPARTO GASTRONOMIA Number Out              4.0000    
+CASSA ABBIGLIAMENTO Accum VA Time           .06331    
+REPARTO GASTRONOMIA Number In               4.0000    
+REPARTO SCAFFALI Number In                  6.0000    
+REPARTO GASTRONOMIA Accum VA Time           12.215    
+REPARTO SCAFFALI Number Out                 .00000    
+REPARTO GASTRONOMIA Accum Wait Time         .46192    
+CASSA 2 Accum VA Time                       1.2993    
+REPARTO PESCHERIA Accum Wait Time           7.9299    
+CASSA 2 Number In                           1.0000    
+CASSA ABBIGLIAMENTO Accum Wait Time         .00000    
+REPARTO SCAFFALI Accum VA Time              .00000    
+ABBIGLIAMENTO Number In                     1.0000    
+ABBIGLIAMENTO Number Out                    1.0000    
+PORTA INGRESSO Accum Wait Time              2.1780    
+PORTA INGRESSO Number In                    11.000    
+PORTA INGRESSO Number Out                   10.000    
+CASSA 1 Accum Wait Time                     .16386    
+Entity 1.NumberIn                           11.000    
+Entity 1.NumberOut                          4.0000    
+scaffali.NumberSeized                       6.0000    
+cassiere abbigliamento.NumberSeized         1.0000    
+cassiere abbigliamento.ScheduledUtilizatio  .00691    
+cassiere.NumberSeized                       2.0000    
+cassiere.ScheduledUtilization               .31708    
+pescivendolo.NumberSeized                   3.0000    
+pescivendolo.ScheduledUtilization           .85830    
+cassiere 2.NumberSeized                     1.0000    
+cassiere 2.ScheduledUtilization             .14187    
+IGENIZZAZIONE.NumberSeized                  11.000    
+IGENIZZAZIONE.ScheduledUtilization          .16996    
+macellaio e gastronomo.NumberSeized         4.0000    
+macellaio e gastronomo.ScheduledUtilizatio  .66688    
+Commesso.NumberSeized                       1.0000    
+System.NumberOut                            4.0000    
+
